@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+	background: #eee;
+}
+#splash{
+	background-image: url(banner.png);
+	background-repeat: no-repeat;
+	background-color: #252A32;/*#363B43;*/
+	background-position: 50% 0;
+	width:100%;
+	height:500px;
+}
