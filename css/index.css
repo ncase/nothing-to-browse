@@ -75,6 +75,7 @@ a{
 }
 #actions .action_button.main{
 	padding:0 10px;
+	text-decoration:underline;
 }
 #actions .action_button.main:hover{
 	letter-spacing: 0.05em;
@@ -100,16 +101,24 @@ a{
 #press img {
 	border-radius: 10px;
 }
-#press a {
+#press a.image_link {
 	transition: all 0.2s ease-in-out;
 	text-decoration:none;
 	opacity:0.5;
 	position: relative;
 	top:0;
 }
-#press a:hover {
+#press a.image_link:hover {
 	opacity:1.0;
 	top:-5px;
+}
+#press a.article_link {
+	transition: all 0.2s ease-in-out;
+	color:#999;
+	text-decoration: underline;
+}
+#press a.article_link:hover {
+	color:#dd3939;
 }
 
 /** WHY OPEN SOURCE **/
