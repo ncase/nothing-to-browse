@@ -49,6 +49,13 @@ a{
 	padding:50px 0;
 	background: #333;
 }
+.divider{
+	position:relative;
+	height:0;
+	width:100%;
+	border-bottom:3px dashed #ccc; 
+	top:35px;
+}
 
 /** CALLS TO ACTION **/
 #actions{
@@ -64,7 +71,7 @@ a{
 	letter-spacing: 0.00em;
 }
 #actions .action_button:hover{
-	color:#999;
+	color:#dd3939;
 }
 #actions .action_button.main{
 	padding:0 10px;
@@ -86,7 +93,23 @@ a{
 }
 
 /** PRESS **/
-#press{
+#press {
+	width:100%;
+	text-align:center;
+}
+#press img {
+	border-radius: 10px;
+}
+#press a {
+	transition: all 0.2s ease-in-out;
+	text-decoration:none;
+	opacity:0.5;
+	position: relative;
+	top:0;
+}
+#press a:hover {
+	opacity:1.0;
+	top:-5px;
 }
 
 /** WHY OPEN SOURCE **/
@@ -95,6 +118,25 @@ a{
 
 /** TEAM NOBODY **/
 #team{
+}
+#team .team_pic:last-child{
+	margin-right: 0;
+}
+#team .team_pic{
+	float:left;
+	margin-right: 25px;
+	width:250px;
+	height:250px;
+	border-radius: 150px;
+	background: #333;
+}
+#team a{
+	color:#000;
+	transition: all 0.2s ease-in-out;
+	text-decoration:underline;
+}
+#team a:hover{
+	color:#dd3939;
 }
 
 /** FOOTER **/
