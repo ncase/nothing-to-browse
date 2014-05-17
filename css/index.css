@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('ostrich-sans-regular.woff');
+}
+body{
+	margin: 0;
+	background: #eee;
+	font-family: 'Ostrich Sans';
+	font-size: 40px;
+}
+a{
+	text-decoration:none;
+}
+
+/** SPLASH BANNER **/
+#splash{
+	position: relative;
+	background-color: #252A32;
+	width:100%;
+	height:500px;
+}
+#splash > div{
+	position: absolute;
+	top:0; left:0;
+	background-repeat: no-repeat;
+	width:100%;
+	height:500px;
+	background-position: calc(50% + 250px) 0;
+}
+#splash > div:nth-child(8){
+	background-image: url(../img/banner/0.png);
+	background-position: 50% 0;
+}
+#splash > div:nth-child(7){ background-image: url(../img/banner/1.png); }
+#splash > div:nth-child(6){ background-image: url(../img/banner/2.png); }
+#splash > div:nth-child(5){ background-image: url(../img/banner/3.png); }
+#splash > div:nth-child(4){ background-image: url(../img/banner/4.png); }
+#splash > div:nth-child(3){ background-image: url(../img/banner/5.png); }
+#splash > div:nth-child(2){ background-image: url(../img/banner/6.png); }
+#splash > div:nth-child(1){ background-image: url(../img/banner/7.png); }
+
+/** SECTIONS **/
+.light_section{
+	width:800px;
+	margin:50px auto;
+}
+.dark_section{
+	width:100%;
+	padding:50px 0;
+	background: #333;
+}
+
+/** CALLS TO ACTION **/
+#actions{
+	width:800px;
+	margin:50px auto;
+	text-align: center;
+}
+#actions .action_button{
+	position: relative;
+	color:#000;
+	transition: all 0.2s ease-in-out;
+	background: #eee;
+	letter-spacing: 0.00em;
+}
+#actions .action_button:hover{
+	color:#999;
+}
+#actions .action_button.main{
+	padding:0 10px;
+}
+#actions .action_button.main:hover{
+	letter-spacing: 0.05em;
+}
+#actions .action_button.sub{
+	position: relative;
+	top:0;
+}
+#actions .action_button.sub:hover{
+	top:-5px;
+}
+
+/** WHAT'S THIS GAME **/
+#why_game{
+
+}
+
+/** PRESS **/
+#press{
+}
+
+/** WHY OPEN SOURCE **/
+#why_open{
+}
+
+/** TEAM NOBODY **/
+#team{
+}
+
+/** FOOTER **/
+#footer{
+}
