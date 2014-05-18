@@ -138,14 +138,37 @@ a{
 	height:250px;
 	border-radius: 150px;
 	background: #333;
+	overflow: hidden;
+	position: relative;
 }
-#team a{
+#team a.team_sub_links{
 	color:#000;
 	transition: all 0.2s ease-in-out;
 	text-decoration:underline;
 }
-#team a:hover{
+#team a.team_sub_links:hover{
 	color:#dd3939;
+}
+#team a.team_hover{
+	float:left;
+	margin-right:25px;
+}
+#team a.team_hover .team_pic_desc{
+	position: absolute;
+	top:250px;
+	transition: all 0.25s ease-in-out;
+	width:250px;
+	height:250px;
+	border-radius: 150px;
+	background: rgba(0,0,0,0.8);
+	color:#fff;
+	font-size:35px;
+}
+#team a.team_hover:hover .team_pic_desc{
+	top:0;
+}
+#team .team_pic_desc span{
+	color:#cc2727;
 }
 
 /** FOOTER **/
