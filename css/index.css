@@ -41,6 +41,10 @@ a{
 
 /** SECTIONS **/
 .light_section{
+	background: #eee;
+	overflow: hidden;
+}
+.light_section #container{
 	width:800px;
 	margin:50px auto;
 }
@@ -74,9 +78,9 @@ a{
 	text-align: center;
 }
 .dark_section #why_text{
-	color: #666;
+	color: #777;
 	font-family: sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 100;
 }
 .divider{
@@ -91,9 +95,9 @@ a{
 
 /** CALLS TO ACTION **/
 #actions{
-	width:800px;
+	/*width:800px;
 	margin:50px auto;
-	text-align: center;
+	text-align: center;*/
 }
 #actions .action_button{
 	position: relative;
@@ -121,9 +125,7 @@ a{
 }
 
 /** WHAT'S THIS GAME **/
-#why_game{
-
-}
+#why_game{}
 
 /** PRESS **/
 #press {
@@ -154,8 +156,7 @@ a{
 }
 
 /** WHY OPEN SOURCE **/
-#why_open{
-}
+#why_open{}
 
 /** TEAM NOBODY **/
 #team{
@@ -206,6 +207,24 @@ a{
 /** FOOTER **/
 #footer{
 	background: #222;
+	color: #777;
+
 	width:100%;
-	height:250px;
+	height:100px;
+	padding:70px 0 80px 0;
+	text-align: center;
+	font-weight: 100;
+	font-family: sans-serif;
+	font-size: 20px;
+
+	position:fixed;
+	bottom:0;
+	z-index:-1;
+}
+#footer a{
+	transition: all 0.2s ease-in-out;
+	color:#cc2727;
+}
+#footer a:hover{
+	color:#ee4a4a;
 }
