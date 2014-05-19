@@ -2,11 +2,7 @@ nothing-to-browse
 =================
 
 The Nothing To Hide Frontpage
+[www.NothingToHide.cc](http://www.NothingToHide.cc)
 
 TODO:
-- A little summary in a parallax (play demo)
-- Press
-- Nothing To Hide has nothing to hide. And in parallax. (community, crowdfunding etc...)
-- Created by team NOBODY - (NCASE | HALCYONIC | 1800+ BACKERS, crowdfunding!)
-- Footer & Contact & CC Zero
-- Favicon
+- Actual text for What Is This Game & Why Is This Open

@@ -5,7 +5,7 @@
 body{
 	margin: 0;
 	background: #eee;
-	font-family: 'Ostrich Sans';
+	font-family: 'Ostrich Sans', Impact;
 	font-size: 40px;
 }
 a{
@@ -82,6 +82,7 @@ a{
 	font-family: sans-serif;
 	font-size: 20px;
 	font-weight: 100;
+	text-align: justify;
 }
 .divider{
 	position:relative;
@@ -235,7 +236,7 @@ a{
 	bottom:0;
 	z-index:-1;
 }
-#footer a{
+#why_text a, #footer a{
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
@@ -243,6 +244,6 @@ a{
 	transition: all 0.2s ease-in-out;
 	color:#cc2727;
 }
-#footer a:hover{
+#why_text a:hover, #footer a:hover{
 	color:#ee4a4a;
 }
