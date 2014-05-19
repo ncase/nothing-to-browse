@@ -91,14 +91,8 @@ a{
 	top:35px;
 }
 
-
-
 /** CALLS TO ACTION **/
-#actions{
-	/*width:800px;
-	margin:50px auto;
-	text-align: center;*/
-}
+#actions{}
 #actions .action_button{
 	position: relative;
 	color:#000;
