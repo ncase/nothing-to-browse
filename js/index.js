@@ -3,7 +3,9 @@ window.onload = function(){
 	// PARALLAX
 	var splashLayers = document.querySelectorAll("#splash > div");
 	var whyBackgrounds = document.querySelectorAll("#why_background");
-	window.onscroll = function(){
+
+	// Render
+	var render = function(){
 
 		// Scroll Offset
 		var scrollTop = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
@@ -23,6 +25,11 @@ window.onload = function(){
 			layer.style.backgroundPosition = "0px "+y+"px";
 		}
 
+	};
+
+	// Re-render whenever scrolling
+	window.onscroll = function(){
+		render();
 	};
 
 };
