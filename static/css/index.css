@@ -161,6 +161,13 @@ a{
 #press a.article_link:hover {
 	color:#dd3939;
 }
+#press #press_quotes{
+	margin:30px 0 0 0;
+	font-family:sans-serif;
+	font-weight:100;
+	font-size:20px;
+	text-align:center;
+}
 
 /** WHY OPEN SOURCE **/
 #why_open{}
