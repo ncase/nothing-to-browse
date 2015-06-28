@@ -7,6 +7,7 @@ var render = function(){
 
 	// Scroll Offset
 	var scrollTop = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+	scrollTop -= 160;
 
 	// Splash Layers
 	for(var i=0;i<splashLayers.length;i++){
@@ -29,3 +30,6 @@ var render = function(){
 window.onscroll = function(){
 	render();
 };
+setTimeout(function(){
+	render();
+},50);
